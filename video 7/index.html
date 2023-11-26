@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+
+<body>
+    <h1>Registeration form</h1>
+    <form action="post">
+        <label for="username">Name</label>
+        <input type="text" id="username" placeholder="Enter your username" name="username">
+        <!-- id is a unique id like aadhar card -->
+        <div>
+            <!-- In radio tag you can select any one option in the given option -->
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="other" id="other">
+            <label for="other">Other</label>
+        </div>
+        <div>
+            <!-- in the checkbok tag you can select any option multiple time -->
+                <input type="checkbox" name="fruit[]" value="apple" id="apple">
+                <label for="apple">Apple</label>
+                <input type="checkbox" name="fruit[]" value="banana"id="banana">
+                <label for="banana">Banana</label>
+                <input type="checkbox" name="fruit[]" value="orange" id="orange">
+                <label for=""orange>Orange</label>
+        </div>
+        <div>
+            <!-- It will create area to give input like address -->
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <select name="fruit" >
+                <!-- This will give option like downward  -->
+                <option value="appple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="cherry">cherry</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>

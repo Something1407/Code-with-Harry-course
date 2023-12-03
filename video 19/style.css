@@ -1,0 +1,31 @@
+/* Importing from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Nova Square', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    /* text-decoration: underline dotted red; */
+    line-height: 3;
+}
+.First{
+    /* this will do capital of all letter */
+   text-transform: capitalize;
+   text-decoration: underline;
+   /* this tag will give color to the line */
+   text-decoration-color: aqua;
+   /* THis tag used to adjust thickness of the underline */
+   text-decoration-thickness: 9px;
+   /* It will create a space from starting to text */
+   text-indent: 45px;
+}
+.lorem{
+    word-break: break-all;
+    border: 2px solid red;
+    width: 130px;
+    text-overflow:clip;
+    overflow: hidden;
+}

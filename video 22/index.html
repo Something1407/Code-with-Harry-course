@@ -10,6 +10,9 @@
             margin: 0;
             padding: 0;
         }
+        html{
+            font-size: 12px;
+        }
         .box{
             box-sizing:border-box;
             border: 2px solid black;
@@ -25,8 +28,28 @@
             /* width: 80px; */
             width: 80vw;
             height: 80vh;
+            font-size: 18px;
             margin: 24px auto;
             background-color: aquamarine;
+        }
+        .container > div{
+            /* font-size: 2em; */
+            font-size: 2rem;
+            width: 50%;
+            border: 2px solid red;
+        }
+        .container > div > p{
+            width: 50%;
+            border:2px solid blue;
+        }
+        .mycont{
+            margin: 24px auto;
+            background-color: aqua;
+            color: red;
+            border:2px  solid   black;
+            font-size: 25px;
+            /* width: 100vmin; */
+            width: 100vh;
         }
     </style>
 </head>
@@ -35,7 +58,16 @@
         I am a Box
     </div>    
     <div class="container">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis assumenda minus sed eum expedita rem ea beatae ipsam! Ratione rem quibusdam eligendi at delectus. Molestiae asperiores quas officiis voluptatibus esse, neque veniam, incidunt possimus minima repellendus ratione nulla iusto dicta, fuga cum. Minus, temporibus.
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis assumenda minus sed eum expedita rem ea beatae ipsam! Ratione rem quibusdam eligendi at delectus. Molestiae asperiores quas officiis voluptatibus esse, neque veniam, incidunt possimus minima repellendus ratione nulla iusto dicta, fuga cum. Minus, temporibus.
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae deserunt deleniti aspernatur.
+        <!-- This Container will adjust his height -->
+    </p>
+    </div>
+    </div>
+    <div class="mycont">
+        I am another container
     </div>
 </body>
 </html>

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Young+Serif&display=swap');
+*
+{
+    font-family: "nova square","serif";
+}
+body
+{
+    background-color: aliceblue;
+}
+.box
+{
+    box-shadow: 1px 1px 1px  black;
+    background-color: rgb(255, 255, 255);
+    height: 570px;
+    width: 500px;
+    border-radius: 10px;
+    position: absolute;
+    left: 500px;
+}
+.image
+{
+    margin: 19px;
+    height: 36vh;
+    width: 30vw;
+    border-radius: 10px;
+}
+.car
+{
+    position: absolute;
+    left: 25px;
+    top: 290px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(118, 118, 118);
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 15px;
+}
+.banglow
+{
+    left: 70px;
+}
+.bod
+{
+    position: absolute;
+    left: 25px;
+}
+p
+{
+    top: 350px;
+}
+.read
+{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: rgb(218, 243, 255);
+    color: rgb(0, 106, 255);
+    font-size: x-large;
+    top: 490px;
+    height: 60px;
+    width: 200px;
+    left: 140px; 
+}

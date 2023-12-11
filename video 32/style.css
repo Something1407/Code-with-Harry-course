@@ -1,0 +1,50 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.main
+{
+    background-color: #323232;
+    display: flex;
+}
+.nav1
+{
+    margin-left: 100px;
+}
+.home,.about,.contact
+{
+    margin-left: 100px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.home:hover,.about:hover,.contact:hover
+{
+    color: red;
+}
+.home:hover
+{
+    background-color: aqua;
+}
+.about:hover
+{
+    background-color: rgb(234, 255, 0);
+}
+.contact:hover
+{
+    background-color: chartreuse;
+}
+.nav2
+{
+    margin-left: 740px;
+}
+.search,.button
+{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: red;
+}
+.search:hover,.button:hover
+{
+    background-color: greenyellow;
+}

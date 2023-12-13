@@ -1,5 +1,103 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+:root
+{
+    --navbar:rgb(23, 23, 23);
+    --fontcolornav:white;
+    --hoverback:red;
+    --hoverfont:yellow;
+    --boxbackcolor:rgb(149, 255, 149);
+    --themecolor:rgb(82, 82, 82);
+}
 *
 {
     padding: 0px;
     margin: 0px;
+    font-family: 'Nova Square';
+}
+body
+{
+    background-color: var(--themecolor);
+}
+ul li
+{
+    display: inline;
+    padding: 15px;  
+    color:var(--fontcolornav);
+    font-size: x-large;
+    cursor: pointer;
+}
+ul li a
+{
+    text-decoration: none;
+    color: var(--fontcolornav);
+}
+nav
+{
+    background-color: var(--navbar);
+    padding: 15px 0px;
+}
+ul li:hover
+{
+    background-color: var(--hoverback);
+}
+ul li a:hover
+{
+    color: var(--hoverfont);
+}
+header
+{
+    position: sticky;
+    /* width: 100vw; */
+    /* height: 30px; */
+    /* padding-bottom: 30px; */
+    /* padding: 10px; */
+    top: 0;
+    z-index: 10;
+
+}
+.box
+{
+    position: relative;
+    margin: 30px;
+    margin-top: 20px;
+    height: 40vw;
+    width: 95vw;
+    background-color: var(--boxbackcolor);
+}
+.sb1
+{
+    position: relative;
+    background-color: rgb(255, 88, 88);
+    height: 35vw;
+    width: 35vw;
+    margin: 40px;
+    top: 40px;
+}
+.sb2
+{
+    position: relative;
+    background-color: rgb(255, 88, 88);
+    height: 35vw;
+    width: 35vw;
+    top: -537px;
+    left: 877px;
+}
+footer
+{
+    background-color: aqua;
+}
+.CopyRight
+{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(255, 123, 0);
+}
+.logo
+{
+    height: 4vw;
+    width: 4vw;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
 }

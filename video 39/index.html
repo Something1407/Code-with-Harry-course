@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Grid</title>
     <style>
-        .container
-        {
+        .container {
             width: 80vw;
             height: 100vh;
             border: 2px solid orange;
             display: grid;
-            grid-template-columns: repeat(4,minmax(100px,2fr));
+            grid-template-columns: repeat(4, minmax(100px, 2fr));
             /* grid-template-columns: repeat(4,1fr); */
             /* grid-template-rows: 1fr 2fr 1fr; */
             /* grid-template-columns: 200px 200px;
@@ -22,24 +22,25 @@
             /* align-items: center; */
             place-content: center;
         }
-        .item
-        {
+
+        .item {
             border: 2px solid red;
-            height: 100px; 
+            height: 100px;
             width: 100px;
         }
-        .item-4
-        {
+
+        .item-4 {
             /* grid-row:1/2 ;
             grid-column: 1/2; */
         }
-        .item-1
-        {
+
+        .item-1 {
             /* grid-row:1/2 ;
             grid-column: 1/2; */
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="item item-1">1</div>
@@ -49,4 +50,5 @@
         <div class="item">5</div>
     </div>
 </body>
+
 </html>
